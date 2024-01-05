@@ -1,6 +1,5 @@
- Represents an abstract game of a chess variant with White and Black teams. A player wins by capturing all the pieces
-     of one type of piece belonging to the opposing player. Communicates with Piece class and subclasses to initialize
-     board and make valid moves.
+    This project implements a playable implementation of Chess. A player wins in this variant by capturing all the pieces
+    of one type of piece belonging to the opposing player. 
 
     Contains the following data members:
         -game_state: the current game state
