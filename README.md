@@ -1,4 +1,4 @@
-    This project implements a playable implementation of Chess. A player wins in this variant by capturing all the pieces
+    This project is a playable implementation of Chess. A player wins in this variant by capturing all the pieces
     of one type of piece belonging to the opposing player. 
 
     Contains the following data members:
