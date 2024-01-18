@@ -1,5 +1,5 @@
 # Overview
-Welcome to the Chess Variant - Piece Capture, a playable implementation of Chess written in Python. In this unique variant, the objective is to secure victory by capturing all the pieces of one type belonging to the opposing player.
+Welcome to my custom Chess Variant, a playable implementation of Chess written in Python. In this unique variant, the objective is to secure victory by capturing all the pieces of one type belonging to the opposing player.
 
 # Data Members
 **game_state:** Represents the current state of the game.
