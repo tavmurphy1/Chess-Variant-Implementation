@@ -10,15 +10,16 @@ black_pieces: Similar to white_pieces but for black pieces.
 
 # Methods
 make_move: Moves a piece from one square to another if and only if the movement is valid. Returns 'True' if the move is valid and successfully completed, and 'False' if the move is invalid. Communicates with the Piece class and its subclasses to determine the validity of moves.
-get_game_state: Returns the current game state, which can be 'UNFINISHED', 'WHITE_WON', or 'BLACK_WON'.
-get_current_turn: Returns the player whose turn it currently is.
-get_board: Returns a representation of the current board state.
-get_white_pieces_remaining: Returns the dictionary containing counts of white pieces remaining.
-get_black_pieces_remaining: Returns the dictionary containing counts of black pieces remaining.
-Usage
-python
-Copy code
 
+get_game_state: Returns the current game state, which can be 'UNFINISHED', 'WHITE_WON', or 'BLACK_WON'.
+
+get_current_turn: Returns the player whose turn it currently is.
+
+get_board: Returns a representation of the current board state.
+
+get_white_pieces_remaining: Returns the dictionary containing counts of white pieces remaining.
+
+get_black_pieces_remaining: Returns the dictionary containing counts of black pieces remaining.
 
 # Example usage of the Chess Variant - Piece Capture
 chess_game = ChessVariant()
