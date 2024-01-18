@@ -1,14 +1,14 @@
-Overview
+# Overview
 Welcome to the Chess Variant - Piece Capture, a playable implementation of Chess written in Python. In this unique variant, the objective is to secure victory by capturing all the pieces of one type belonging to the opposing player.
 
-Features
+# Features
 Data Members
 game_state: Represents the current state of the game.
 current_turn: Indicates whose player's turn it is.
 board: A list of dictionaries representing 8x8 squares and their Piece occupants.
 white_pieces: A dictionary containing a running count of white pieces remaining, categorized by type.
 black_pieces: Similar to white_pieces but for black pieces.
-Methods
+# Methods
 make_move: Moves a piece from one square to another if and only if the movement is valid. Returns 'True' if the move is valid and successfully completed, and 'False' if the move is invalid. Communicates with the Piece class and its subclasses to determine the validity of moves.
 get_game_state: Returns the current game state, which can be 'UNFINISHED', 'WHITE_WON', or 'BLACK_WON'.
 get_current_turn: Returns the player whose turn it currently is.
@@ -18,6 +18,8 @@ get_black_pieces_remaining: Returns the dictionary containing counts of black pi
 Usage
 python
 Copy code
+
+
 # Example usage of the Chess Variant - Piece Capture
 chess_game = ChessVariant()
 chess_game.make_move('e2', 'e4')
@@ -26,29 +28,3 @@ current_turn = chess_game.get_current_turn()
 board_state = chess_game.get_board()
 white_pieces_remaining = chess_game.get_white_pieces_remaining()
 black_pieces_remaining = chess_game.get_black_pieces_remaining()
-Installation
-Clone the repository to your local machine:
-
-bash
-Copy code
-git clone https://github.com/your-username/chess-variant.git
-Navigate to the project directory:
-
-bash
-Copy code
-cd chess-variant
-Run the Chess Variant:
-
-bash
-Copy code
-python chess_variant.py
-Contributions
-Contributions are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.
-
-License
-This project is licensed under the MIT License, allowing collaboration and use for educational and recreational purposes. Feel free to explore and enhance this Chess Variant implementation. Enjoy the game!
-
-
-
-
-
